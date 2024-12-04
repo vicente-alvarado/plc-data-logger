@@ -1,0 +1,39 @@
+
+# Ignorar archivos y directorios espec�ficos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignorar entornos de Conda
+env/
+venv/
+*.conda
+
+# Ignorar archivos de configuraciones del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuraci�n de IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos de base de datos locales
+*.db
+*.sqlite
+
+# Ignorar archivos generados por el sistema operativo
+*.log
+*.bak
+*.swp
+*.swo
+
+# Ignorar archivos de entornos de desarrollo de Jupyter
+.ipynb_checkpoints/
+
+# Ignorar archivos espec�ficos de Git (comandos de seguimiento)
+.git/
+
+# Ignorar archivos csv
+*.csv
