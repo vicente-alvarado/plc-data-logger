@@ -25,7 +25,7 @@ Puedes instalar estos paquetes utilizando el archivo `requirements.txt` o `envir
    ```bash
    pip install -r requirements.txt
 
-### Usando environment.yml (Conda):
+### Usando `environment.yml` (Conda):
 
 1. Clona el repositorio:
    ```bash
