@@ -18,8 +18,8 @@ Puedes instalar estos paquetes utilizando el archivo `requirements.txt` o `envir
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   git clone https://github.com/vicente-alvarado/plc-data-logger.git
+   cd plc-data-logger
 
 2. Clona el repositorio:
    ```bash
@@ -29,8 +29,8 @@ Puedes instalar estos paquetes utilizando el archivo `requirements.txt` o `envir
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   git clone https://github.com/vicente-alvarado/plc-data-logger.git
+   cd plc-data-logger
 
 2. Crea un entorno Conda desde el archivo `environment.yml`
    ```bash
