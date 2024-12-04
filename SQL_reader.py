@@ -10,7 +10,7 @@ def connect_to_db():
             host="localhost",  # Cambia por la IP de tu servidor de base de datos
             user="root",       # Cambia por tu usuario de MySQL
             password="root",   # Cambia por tu contraseña de MySQL
-            database="armada_database"  # Cambia por el nombre de tu base de datos
+            database="data_database"  # Cambia por el nombre de tu base de datos
         )
         
         if db_connection.is_connected():
@@ -23,7 +23,7 @@ def connect_to_db():
 def insert_data(cursor, tiempo, tiemposuministro, caudal, presion, muellenum):
     """Inserta los datos en la base de datos."""
     insert_query = """
-    INSERT INTO armada (tiempo, tiemposuministro, caudal, presion, muellenum)
+    INSERT INTO data_table (tiempo, tiemposuministro, caudal, presion, muellenum)
     VALUES (%s, %s, %s, %s, %s)
     """
     values = (tiempo, tiemposuministro, caudal, presion, muellenum)
