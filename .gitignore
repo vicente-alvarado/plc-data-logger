@@ -1,4 +1,3 @@
-
 # Ignorar archivos y directorios espec�ficos de Python
 __pycache__/
 *.pyc
